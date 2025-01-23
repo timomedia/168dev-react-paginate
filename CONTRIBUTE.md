@@ -2,7 +2,7 @@
 
 ## Getting started
 
-1. [Submit an issue](https://github.com/AdeleD/react-paginate/issues)
+1. [Submit an issue](https://github.com/timomedia/168dev-react-paginate/issues)
 2. Fork the repository
 3. Create a dedicated branch (never ever work in `master`)
 4. Run `npm start` http://localhost:3000
@@ -25,5 +25,5 @@ npm test
 2. Check the [`CHANGELOG.md`](/CHANGELOG.md) is complete
 3. Update the version in [`package.json`](/package.json)
 4. Tag the new version `git tag v8.0.0` and push the tag `git push --tags`
-5. Create a [release note](https://github.com/AdeleD/react-paginate/releases)
+5. Create a [release note](https://github.com/timomedia/168dev-react-paginate/releases)
 6. Publish on NPM
