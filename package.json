@@ -1,0 +1,71 @@
+{
+  "name": "168dev-react-paginate",
+  "version": "8.2.0",
+  "description": "A ReactJS component that creates a pagination.",
+  "main": "./dist/react-paginate.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdeleD/react-paginate"
+  },
+  "keywords": [
+    "react-component",
+    "paginate",
+    "paginator",
+    "pagination"
+  ],
+  "author": {
+    "name": "168dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdeleD/react-paginate/issues"
+  },
+  "dependencies": {
+    "prop-types": "^15"
+  },
+  "peerDependencies": {
+    "react": "^16 || ^17 || ^18 || ^19" 
+  },
+  "devDependencies": {
+    "@babel/core": "^7",
+    "@babel/eslint-parser": "^7",
+    "@babel/preset-env": "^7",
+    "@babel/preset-react": "^7",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
+    "@testing-library/react": "^16",
+    "babel-loader": "^9",
+    "core-js": "^3",
+    "eslint": "^9",
+    "eslint-plugin-react": "^7",
+    "express": "^4",
+    "husky": "^9",
+    "jest-cli": "^29",
+    "jest-environment-jsdom": "^29.7.0",
+    "jquery": "^3.7",
+    "prettier": "^3.4",
+    "react": "^19",
+    "react-dom": "^19",
+    "react-refresh": "^0.16.0",
+    "serve-static": "^1",
+    "styled-components": "^6",
+    "webpack": "^5",
+    "webpack-cli": "^6",
+    "webpack-dev-middleware": "^7",
+    "webpack-hot-middleware": "^2.26.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "build": "webpack --config webpack.config.js --mode=production",
+    "demo": "node demo/data.js && node demo/server.js",
+    "start": "npm run demo",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}
